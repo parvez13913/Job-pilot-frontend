@@ -1,3 +1,4 @@
+import MenuIcon from "@/public/icon/MenuIcon";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -57,16 +58,7 @@ export default function Navbar() {
           <summary className="flex h-10 w-10 cursor-pointer list-none items-center justify-center rounded-xl border border-gray-200 text-gray-700 transition-colors hover:border-[var(--primary)] hover:text-[var(--primary)]">
             <span className="sr-only">Open menu</span>
 
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-            >
-              <path d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
+            <MenuIcon />
           </summary>
 
           <div className="absolute right-0 top-14 w-64 rounded-2xl border border-gray-100 bg-white p-3 shadow-2xl shadow-gray-200/50">
